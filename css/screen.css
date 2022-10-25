@@ -85,7 +85,7 @@ a:hover{
 }
 
 #IIT{
-  background-image: url(Images/IIT.png);
+  background-image: url('Images/IIT.png');
   padding: 12px;
   margin: 12px;
   border-radius: 10px;
