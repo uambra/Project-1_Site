@@ -83,12 +83,3 @@ a:hover{
     color: red;
     text-decoration: underline;
 }
-
-figure{
-padding: 12px;
-margin: 12px;
-border-radius: 10px;
-float: right;
-border: 4px solid maroon;
-position: relative;
-}
