@@ -84,7 +84,8 @@ a:hover{
     text-decoration: underline;
 }
 
-figure{
+#IIT{
+  background-image: url(Images/IIT.png);
   padding: 12px;
   margin: 12px;
   border-radius: 10px;
