@@ -86,3 +86,7 @@ a:hover{
   border: 4px solid;
   border-radius: 10px;
 }
+
+.bolded {
+  font-weight: bold;
+}
