@@ -68,8 +68,8 @@ a:hover {
 }
 
 a:active {
-  background: #C21807;
-  color: white;
+  background: white;
+  color: black;
 }
 #iit {
   float: right;
