@@ -5,9 +5,9 @@
 <meta charset="utf-8" >
 
 <title>Placeholder Module</title>
-<meta name="description" content="This is the placeholder module." >
+<meta name="description of metadata" content="metadata content description" >
 <!--The link elements tell the browser where to find the style sheets that control the appearance of your page-->
-<link rel="stylesheet" href="./css/screen.css"/>              <!-- You can also create a new CSS folder -->
+<link rel="stylesheet" href="./css/screen.css"/>    <!-- You can also create a new CSS folder, but this is where the link to your sylesheet goes. -->
  </head>
 
   <body>
@@ -29,36 +29,48 @@
         </ul>
     </nav>
 
-    <h1>Example heading for placeholder module</h1><!--This is where you can create a heading   -->
+    <h1>Example heading for placeholder</h1><!--This is a place to create a main heading-->
 
- <!-- Side navigation -->
-<aside><!-- This will help create a side bar with information  -->
- <p><strong>Sidebar example:</strong></p>
+ <!-- Side bar aside navigation. Also know that you can create class="sidebar" selector to format your sidebar in CSS-->
+<aside class="sidebar"><!--Example Sidebar-->
 
-<ul><!-- This can create an unordered list  -->
-  <li><strong>List Example</strong></li>
-  <li><strong>Example</strong></li>
-</ul>
+    <h3>Example Heading:</h3>
+    <ul><!-- You might consider putting an unordered list with headings -->
+        <li>Example List</li>
+        <li>Example List</li>
+    </ul>
+    <h3>Example Heading:</h3>
+    <ul>
+        <li>Example List</li>
+        <li>Example List</li>
+        <li>Example List</li>
+    </ul>
 </aside>
 
-<!-- Page content -->
-<div class="main">
+<!-- Content within the page  -->
+<div>
+<p>Example of a paragraph</p> <!-- The is a paragraph where content can be placed -->
 
-<p>Example of a paragraph</p> <!-- A paragraph  -->
-
-<!-- This will help you create a new section -->
-<section id="Example_data">
+<!-- After finishing the parapagraph, a new heading followed by more content can follow. Also may create a list (ordered or unordered) -->
 <h2>Example Heading 2</h2>
-<p>Example</p>
-</section>
+<h3>Example Subheading from heading</h3>
+<ul>
+    <li><strong>Example list bolded</strong>
+        <ul>
+            <li>Example sublist of the actual main list</li>
+            <li>Example sublist 2</li>
+        </ul>
+    </li>
+</ul>
+<p>Example paragraph from subheading</p>
 </div>
 
 
-<!-- insert an image -->
-<img src="Images/datalesson_fig3.png" alt="describe the image here" >
-<blockquote>
-<p>The Library Services icon leads you to the library search website.</p> <!-- This will allow you to put text under the image in a box-->
-</blockquote>
+<!-- Insert an image with designated alt test to describe what image is. Can also use a caption under the image. -->
+<figure>
+<img src="Images/research4_image1.jpg" alt="desribe what the image means here">
+<figcaption>Example of caption that goes under figure</figcaption>
+</figure>
 
   </body>
 </html>
