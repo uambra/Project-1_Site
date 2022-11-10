@@ -44,9 +44,9 @@ main{
     margin: 5%;
 }
 body{
-    text-size-adjust: 2%;
-    font-family: 'Garamond', serif;
-    font-size: 1.5em;
+  text-size-adjust: 2%;
+  font-family: 'Garamond', serif;
+  font-size: 1.5em;
 }
 figure{
     margin: 0;
