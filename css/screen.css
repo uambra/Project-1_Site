@@ -3,6 +3,7 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{line-height:15
 .sidebar {
     background-color: #963131;
     color: #ffffff;
+    width: 25%;
     padding: 20px;
     margin: 20px;
     border: 10px solid #963131;
